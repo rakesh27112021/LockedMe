@@ -33,6 +33,9 @@ public class LockedMeMain {
 					break;
 				case "5":
 					isExit=true;
+					System.out.println("Exited successfully");
+					System.exit(1);
+					break;
 				default:
 					System.out.println("Invalid Option, try again");
 				
